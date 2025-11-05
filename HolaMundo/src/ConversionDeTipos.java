@@ -19,7 +19,6 @@ public class ConversionDeTipos {
         var numeroStrVar = "50";
         var numeroIntVar = Integer.parseInt(numeroStrVar);
         System.out.println("numeroIntVar = " + numeroIntVar);
-    
 
         var realStrVar = "98765.43e-3";
         var realDoubleVar = Double.parseDouble(realStrVar);
@@ -28,5 +27,21 @@ public class ConversionDeTipos {
         var logicoStrVar = "True";
         var logicoBooleanVar = Boolean.parseBoolean(logicoStrVar);
         System.out.println("logicoBooleanVar = " + logicoBooleanVar);
+
+        //Conversión de enteros a cadenas
+        int otroNumeroInt = 100;
+        System.out.println("otroNumeroInt = " + otroNumeroInt);
+        String otroNumeroStr = Integer.toString(otroNumeroInt);
+
+        otroNumeroStr = String.valueOf(otroNumeroInt + 10);
+        System.out.println("otroNumeroStr = " + otroNumeroStr);
+
+        double otroRealDouble = 1.23456e2;
+        String otroRealStr = Double.toString(otroRealDouble);
+        System.out.println("otroRealStr = " + otroRealStr);
+        otroRealStr = String.valueOf(otroRealDouble);
+        System.out.println("otroRealStr = " + otroRealStr);
+
+
     }
 }
