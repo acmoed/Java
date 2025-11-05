@@ -28,6 +28,5 @@ public class ConversionDeTipos {
         var logicoStrVar = "True";
         var logicoBooleanVar = Boolean.parseBoolean(logicoStrVar);
         System.out.println("logicoBooleanVar = " + logicoBooleanVar);
-        
     }
 }
