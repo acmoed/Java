@@ -41,6 +41,17 @@ public class ConversionDeTipos {
         System.out.println("otroRealStr = " + otroRealStr);
         otroRealStr = String.valueOf(otroRealDouble);
         System.out.println("otroRealStr = " + otroRealStr);
+        
+        //Conversión de primitivos a primitivos
+        int i = 10000;
+        short s = (short)i; //cast Poner entre paréntesis el tipo de dato
+        System.out.println("s = " + s);
+        
+        long l = i;
+        System.out.println("l = " + l);
+
+        char c = (char)i;
+        System.out.println("c = " + c);
 
 
     }
